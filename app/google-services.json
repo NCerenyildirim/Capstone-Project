@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563201658847",
+    "project_id": "quickup-647a9",
+    "storage_bucket": "quickup-647a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563201658847:android:038ac1192113537c9f3e6a",
+        "android_client_info": {
+          "package_name": "com.example.quickup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563201658847-4oqli9iolgfm128v18ih68qrv61otrec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaHBSSv8MN1Zoc2-6nuryu7OQvPYyB70A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563201658847-4oqli9iolgfm128v18ih68qrv61otrec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

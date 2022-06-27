@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/products_nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/favoritesFragment2"
+        android:name="com.example.quickup.data.main.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment2_to_productsBasketFragment2"
+            app:destination="@id/productsBasketFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.quickup.data.main.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_newProductsFragment"
+            app:destination="@id/newProductsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productsBasketFragment2"
+        android:name="com.example.quickup.data.main.productsbasket.ProductsBasketFragment"
+        android:label="fragment_products_basket"
+        tools:layout="@layout/fragment_products_basket" />
+    <fragment
+        android:id="@+id/userragment"
+        android:name="com.example.quickup.data.main.User.Userragment"
+        android:label="fragment_userragment"
+        tools:layout="@layout/fragment_userragment" />
+    <fragment
+        android:id="@+id/productsCategoriesFragment"
+        android:name="com.example.quickup.data.main.productscategories.ProductsCategoriesFragment"
+        android:label="fragment_products_categories"
+        tools:layout="@layout/fragment_products_categories" />
+    <fragment
+        android:id="@+id/newProductsFragment"
+        android:name="com.example.quickup.data.main.home.NewProductsFragment"
+        android:label="NewProductsFragment" />
+</navigation>

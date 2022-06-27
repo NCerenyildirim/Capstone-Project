@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1315" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/drawable/ic_image.xml" value="0.1315" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/activity_forgot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/basket_item.xml" value="0.3532608695652174" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/discount_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/favorites_item.xml" value="0.28351449275362317" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_favorites.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_forgot.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_forgot_view_model.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_home.xml" value="0.3328804347826087" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_login_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_products_basket.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_products_categories.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_sign_in.xml" value="0.44823232323232326" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_sign_in_view_model.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_successragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/fragment_userragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/products_basket_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/layout/products_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/Quickup/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/drawable/ic_image.xml" value="0.136" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/activity_forgot.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/discount_item.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/fragment_favorites.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/fragment_home.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/fragment_new_products.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/fragment_products_basket.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/products_basket_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/javascriptsDemos/Quickup/app/src/main/res/layout/products_item.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/ncere/Desktop/proje/Quickup/app/src/main/res/layout/discount_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/Desktop/proje/Quickup/app/src/main/res/layout/fragment_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.1625" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1625" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/drawable/ic_baseline_shopping_basket_24.xml" value="0.253" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/drawable/ic_image.xml" value="0.1285" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_forgot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_profile.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_sign_up.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/discount_item.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/discount_list.xml" value="0.5" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_new_products.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_products.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_products_basket.xml" value="0.1" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_products_detail_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_products_list.xml" value="0.1" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_successragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/fragment_userragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/products_basket_item.xml" value="0.33" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/products_item.xml" value="0.33" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/layout/products_list.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.253" />
+        <entry key="..\:/Users/ncere/StudioProjects/Quickup/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2235" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="productsModel"
+            type="com.example.quickup.data.model.ProductsModel" />
+
+    </data>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FAF5FB">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/productsimageview"
+                android:layout_width="341dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/products_image_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/productsname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#F8F7F8"
+                android:layout_margin="10dp"
+                android:text="@{productsModel.title}"
+                android:lines="2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/productsimageview" />
+
+
+
+            <TextView
+                android:id="@+id/productsdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="2"
+                android:background="#F8F7F8"
+                android:textColor="@color/black"
+                android:text="@{productsModel.description}"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/productsname"
+                tools:text="Details" />
+
+            <TextView
+                android:id="@+id/ProductsPriceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:text='@{productsModel.price + " ₺"}'
+                android:background="#F8F7F8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/productsdetails"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/addFavoritesImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/ic_baseline_favorite_24"
+                android:padding="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.026"
+                app:layout_constraintStart_toStartOf="parent"
+                app:tint="@color/black" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/addBasketImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:background="@drawable/ic_baseline_shopping_basket_24"
+            android:padding="16dp"
+            app:tint="@color/black" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

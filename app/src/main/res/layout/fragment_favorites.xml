@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <variable
+            name="favoritesRecyclerAdapter"
+            type="com.example.quickup.data.main.favorites.FavoritesAdapter" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4DDF8">
+
+        <TextView
+            android:id="@+id/empty_favorites_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="Your Favorites is empty"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/favoritesRecyclerView"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favoritesRecyclerView"
+            android:layout_width="412dp"
+            android:layout_height="488dp"
+            android:layout_marginTop="16dp"
+            app:adapter="@{favoritesRecyclerAdapter}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/goToBasketButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/goToBasketButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="16dp"
+            android:text="Go to Basket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/favoritesRecyclerView"
+            app:layout_constraintVertical_bias="0.741" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

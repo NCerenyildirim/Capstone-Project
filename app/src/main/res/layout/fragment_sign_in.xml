@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="signInFragmentObject"
+            type="com.example.quickup.ui.SignInFragment" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EED5F1"
+        tools:context=".ui.login.signin.SignInFragment">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_shopping_basket_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#0F0112"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toTopOf="@+id/emailInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="75dp"
+            android:hint="E-Mail"
+            android:textColorHint="#0F0112"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/passwordInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconTint="#0F0112">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#0F0112"
+                android:textColorHint="#0F0112" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="75dp"
+            android:hint="Password"
+            android:textColorHint="#0F0112"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/signInButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailInputLayout"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#F4DDF8"
+            app:startIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+            app:startIconTint="#0F0112">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#0F0112"
+                android:textColorHint="#0F0112" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="75dp"
+            android:backgroundTint="#630973"
+            android:onClick="@{() -> signInFragmentObject.signInButton(emailEditText.getText().toString(),passwordEditText.getText().toString())}"
+            android:text="SIGN IN"
+            android:textAlignment="center"
+            android:textColor="#0F0112"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="76dp"
+            android:text="Forgot Password?"
+            android:onClick="T"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

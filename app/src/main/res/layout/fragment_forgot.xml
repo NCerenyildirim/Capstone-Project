@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="forgotFragmentObject"
+            type="com.example.quickup.ui.ForgotFragment" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EED5F1"
+        tools:context=".ui.ForgotFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInputForgotLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:hint="E-Mail"
+            android:textColorHint="#0F0112"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconTint="#0F0112">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#0F0112"
+                android:textColorHint="#0F0112" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/forgotButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:backgroundTint="#630973"
+            android:onClick="@{() -> forgotFragmentObject.forgotButton(emailEditText.getText().toString())}"
+            android:text="Forgot"
+            android:textAlignment="center"
+            android:textColor="#0F0112"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailInputForgotLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

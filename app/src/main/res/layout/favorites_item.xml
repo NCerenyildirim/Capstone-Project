@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <variable
+            name="productsModel"
+            type="com.example.quickup.data.model.ProductsModel" />
+
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/ProductsFavoritesImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ProductsNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF0E2F3"
+                    android:layout_gravity="center"
+                    android:text="@{productsModel.title}"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ProductsPriceText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text='@{productsModel.price + " ₺"}'
+                    android:layout_marginBottom="8dp"
+                    android:background="#FFF0E2F3"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/productsFavoritesDelete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#E8D5EC"
+                android:src="@drawable/ic_baseline_delete_forever_24"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

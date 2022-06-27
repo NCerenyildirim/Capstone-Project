@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quickup</string>
+    <string name="not_account">Not Account Yet? <b>Sign Up</b> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quickuptitle">QUICKUP</string>
+    <string name="discountproducttext">Discount Products</string>
+    <string name="what_is_new">What is New?</string><!--Signup Bold Oldu Burda-->
+    <string name="products_image_description">Products Image</string>
+    <string name="discount_image_description">Discount Image</string>
+    <string name="new_products">New Products</string>
+    <string name="incomplete_information_entered" />
+</resources>
